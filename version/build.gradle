@@ -1,7 +1,4 @@
-rootProject.version = version_major + '.' + version_series + '.' + version_revision + '.' + version_build
-if(!rootProject.hasProperty('official')) {
-	rootProject.version = rootProject.version + "-unofficial"
-}
+rootProject.version = version_major + '.' + version_series + '.' + version_revision + '.' + version_build + "-gtnh"
 rootProject.ext.mcversion = mcversion
 rootProject.ext.forgeversion = forgeversion
 rootProject.ext.forgebranch = forgebranch
